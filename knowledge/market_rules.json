@@ -1,0 +1,43 @@
+{
+  "rsi": {
+    "overbought": {
+      "condition": "RSI >= 70",
+      "analysis": "The market is showing strong upward momentum and may be overbought.",
+      "suggestion": "Monitor for weakening momentum or possible price corrections."
+    },
+    "oversold": {
+      "condition": "RSI <= 30",
+      "analysis": "The market is showing strong downward momentum and may be oversold.",
+      "suggestion": "Watch for stabilization or possible bullish reversals."
+    },
+    "neutral": {
+      "condition": "30 < RSI < 70",
+      "analysis": "RSI is within its conventional neutral range.",
+      "suggestion": "Use additional indicators to confirm market direction."
+    }
+  },
+  "ema": {
+    "bullish": {
+      "condition": "EMA20 > EMA50",
+      "analysis": "Short-term moving averages indicate positive momentum.",
+      "suggestion": "Monitor resistance levels and potential trend continuation."
+    },
+    "bearish": {
+      "condition": "EMA20 < EMA50",
+      "analysis": "Short-term moving averages indicate negative momentum.",
+      "suggestion": "Monitor support levels and potential trend changes."
+    }
+  },
+  "macd": {
+    "bullish": {
+      "condition": "MACD > Signal",
+      "analysis": "MACD is above its signal line, indicating positive momentum.",
+      "suggestion": "Monitor whether bullish momentum is sustained."
+    },
+    "bearish": {
+      "condition": "MACD < Signal",
+      "analysis": "MACD is below its signal line, indicating negative momentum.",
+      "suggestion": "Watch for continued weakness or a momentum reversal."
+    }
+  }
+}
